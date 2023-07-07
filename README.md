@@ -1,18 +1,17 @@
-!DOCTYPE html
-html
-head
-  title hi its pavan madhurtitle
-  link rel=stylesheet type=textcss href=styles.css
-head
-body
-  header
-    h1it is My Websiteh1
-  header
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello every one</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1> my website</h1>
+  </header>
 
-  main
-    h2Welcome to my webpage!h2
-    pThis is the main content area of the webpage.p
-  main
-body
-html
-
+  <main>
+    <h2>Welcome to my webpage!</h2>
+    <p>Nice to meet you</p>
+  </main>
+</body>
+</html>
