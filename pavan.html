@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Card 1</h2>
+      <img src="https://geekofcoding.files.wordpress.com/2020/09/images.png" alt="Image 1">
+      <p>Text content for card 1.</p>
+    </div>
+    <div class="card">
+      <h2>Card 2</h2>
+      <img src="https://th.bing.com/th/id/OIP.d3b1g9UYOf0hvjwkgI4FagHaEK?pid=ImgDet&rs=1 alt=" alt="Image 2">
+      <p>Text content for card 2.</p>
+    </div>
+    <div class="card">
+      <h2>Card 3</h2>
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0AQsDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAQFAQIGAwf/xAA8EAACAgECAwUHAQUGBwAAAAAAAQIDBAURBhIhEzFBUXEUImGBkaGxMhUWM3KzJDU2QtHhYmSEkqLB8P/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMFBP/EAC0RAQACAQIEBAUEAwAAAAAAAAABAhEDEgQhMUETMmHwIkJRoeEFcYGRI1LR/9oADAMBAAIRAxEAPwD62AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABrKcY8vM0uaSit33yfciJnA2ABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AFbq1rrx6Ix/i25mJGpLv3jbGbaXy+5MyMmjGqlbdNRhH6yfhGK8yowlfqmZHULouONj8yw4Puc+7m+Xi/P0OfxmtnHD081vtHeZevh9PH+a3lr957QvQaynCHLzSjHme0d2k5PyRse/PZ5AAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMEXOzqcGrtLPelJtVVp7Ocl/6XiyUzm9Vrlfq+JRb/Cs9nhH+RtuSXq90c/9Q4i/D6O7Tj4pmIj+Xr4TRrramL9IiZ/ptjYmVq1kc3Pm443V1VreKnH4eUPj3v8AMn26/Ks9j0mEI11KMbMqcd66orolXDu9P9Or9tYnKnTrY1+6pyqpfL02hJ7NdPoaaD2PsCUNudW2dtt387e6b+W2xzqafha8cLW3OY3Wt3n0iffJ7LX36M68xyicVjtHrKZj4VVD5253XyXv33vmtl8E33L4LYloA71KVpG2sYhyrWm05kABdUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHJysXDpnfk3QqphtzTm9lu3skl3tvwQHqQNSwZZdcLKWo5WPLtMeT6JtPflk/JkTG1uzUrLYaVidpCppW5GZaqK4t9Vy1xUrX/2r1LepZCgu3dcp+PZQlGPouZtmevoRqUnT1I6p0taa2i9JRIurU8OyuyLhKSdV0Gvfpujtumvg9mv9yjwHlafqkMWfXtJ9hal+mSac4zX5+p0ypgrZ3RTU5xUZtdFNR7nJea8CJHFrhmX6hkyhGfKqqFKUVGqtLbdt/wCZ/bfb15fE8HfUvpakT8dZ6+nf36uho8TWldSkx8Mx09VgCLVn6ffY6aMqi62K3lCiyNjgv+Ps90vmRsyPEEIWXYeRh2SgnJY1uNNKyK68qsVnNzeXT6eHZiOeHMmcRlZgrNG1WvV8Tt4w7O2ubqvr33ULElL3X5NNNf7FmJiYnEpraLRmAAEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA87qMfIrnTfVXbVP9ULYqcX6qXQ9ABy+paTwfgKmy+idFl9irojjX31ylJtJtbTUVFbptvZL8yo8NaZJJwytU5Wt1yaje4tfDZljqOFpmZQ1qFdUqauaztLJcnY9OslYmmvj1KCnhbQcuqGTgZudGmzd1yqshKOybXTnhzfU3i2Y52l5ppieVYlYfuvpD/XPUbF5WZ+U19pI1lonCGJtK/Gwotdd825z/rzZF/c7Ff69T1OUfLmqX5gz0r4R4cqnDtfaLpyfuxvyHFzaW/SNXKTuj/aTbPakL3Hrw6qoLErohRJKcFjxhGtpr9S5FsQdX1arTqlXWndqGRFxwcWpOdtk30U+SPXlXiyXj4OHh0PGw6lj1PdpU7JqT75Lm36jHwMHFlZZTUldb/Gum3ZfZ/PbY3N/UxjGcy254xCv4c0q7S8BxyGvasm15F6i91W+VRjWmuj2S6vzbLoAi0zacymtYrGIAAQsAAAAAAAAAAAAAAAAAAAAAAAAAAAAANZSjFSlJqMYpylKTSSSW7bbKivXIZ19mPpOO8uVSTuussVGNBSbS2k07H3Purfd39ettbVVdXbTbCM6rYSrshJbxlCS2aaKCfCOkc/aY12dizT3i6L9+X0dib+5em35mV9/wAq4lRLKx7sfProlC6LhZXU7HFwfg3LZ/PZHOXcGVqcpYOo30JvdRtj2m3wU4ShL67ntZg6phPZcS6hCPg8nD9oht8bNmvueftWq+HF2kb+V2Nj1v6OaNa5r5be/wCmd5rbzV5/x/1H/dTXX7r1r3P+qfT0du33PWjguiM42ZWo5Fkk0/7PCNL37/1ycpfRo39q1b/NxdoMV8K8Z/mw1lmWpNXcbYKX/K4+FzfLZyf2L7tSe/2/DPbpx2+/5dRTVGmquqMrZxrioqVtk7bGl4ynNuTfzPLLzsbCrU7pbzm1GmmGzvvm2koVV97f/wB3Ldcyr9Kn+vWuJNQk+jrwoZUIS+H9mqgv/Ml4kcityekcPezTmuWWZrFsYWbeclF2Xy9HJGPh/Vv4nb8uk7zJGw6MmmuXtOS8jIslz2T5VXXF9yhVWm9orw6t+Lb3JJk1gAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAABX0avpuTm36fVZN5VHbdrF1zjFdlJQl7zW3e0WBxWj/AOLtZ9NT/r1mlKxaJmezK95rMRHeXaGHGMv1Ri/5kn+SiyeIpV5GTjYmk6jlzx7ZVWyrqlGpSi9nyySl+Bp3EmPm5awcjEvw8qTlGuF3VSklzcj3UZJ7dVvH5+ceHbGcHi1zjK6ePjPvppfrXD/Q2VdUduWuC9IxX4KmGu1PWJaPZjWV2qU4wtlODhPaCtjsl195dUSNW1SrScWOTZVK1SuhSowlGL3kpS33l06bMbbZiPqndXEz9FiYKi/XacfB03Msw8uc9QhGVGPjw7WxOUFYozcencV8+K7qJQll6Jn49Mmkpz3TfopwjHf4cwjTtPSCdWkdZdQCLj5ayo491EOfFvrVkL1KK6Nb7OD97fw+RKKdOq8TkAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxWjf4u1n01L+vWdr5HFaJ73FmtSXcv2lu18cmCNtLpb9nn1fNX91vlcR0V5VmFgYeXqGVU5K2OMkq4OL2e83v3Po+m3xOfzMjLyuI9CuysCeDb2uFHsrLI2SnFWz2nzQSXw+Q0vKyeG8vUqc3AzLVfKCjPHqlNydbntKL22alvv39PLy9MmWq5+uaBn3abkY1Mr8eFUJRnOcaarXJzv5VtHfdtJ7dF8zetYpPL6dWFrTeOfXPR7cVQng6lpOrVLqnDn28Z48ubZ+sW18jbiy322zQdOx5c3tko2x27mr2qa5fRyfyLfibDlmaTkdnCU7cecMmqMIuUpOL5ZJJde5soeHMPPy9Upy82i6uvTMKmijtqp1804w7GtR7RLfZczfxaK0tG2Lz8vuFtSJ3zSPm9y6bUNT07Rcal3ufLyqrHpqXNZYq0l7u7S2XTfd/nrQavq2pZul5kLNCy8fGmqn7TkWQXJtZFxl2bipdei+ZvxVj5sc3SdSponfTi9nzwhCU1GdVqtXPGKb2l3b7eBrqGr5us4GXjYOk5qrdXaZV2TFwjCNbVjhUkt5Se3RfYrSsRttjK2pefirnC34W/uLTvXJ/r2F0U/DMLK9E0+FkLK5p5G8LYShNb3za3jJJ/YuDHU88t9PyQAAo0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAELU3qqw7/2ZGqWXslWrWktn0k4uXu8y71v0K7h/Q5aVC+/JnG3OyuVWyg24VwTclCMpdX1e8n4/LrfAtFpiNsKTSJtulgyAVXNgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgyABgAADIAAwAAMgAYMgAAAAMAAZMAAZAAAwAAAAGQAAAAGDIAH//Z" alt="Image 3">
+      <p>Text content for card 3.</p>
+    </div>
+  </div>
+</body>
+</html>
