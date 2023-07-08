@@ -1,5 +1,9 @@
-CREATE TABLE todo_list (
-  task_id INT PRIMARY KEY,
-  task_name VARCHAR(255),
-  description TEXT,
+Create DATABASE SALES;
+
+
+CREATE TABLE orders (
+  order_id INT,
+  customer_id INT,
+  order_date DATE,
+  order_total DECIMAL(10, 6)
 );
